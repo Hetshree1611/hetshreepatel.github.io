@@ -634,7 +634,7 @@ Error generating stack: `+l.message+`
         .profile-image-raw {
           width: 600px; /* Increased width */
           height: 700px; /* Increased height */
-          object-fit: contain; /* Ensure entire photo is visible */
+          object-fit: cover; /* Ensure entire photo is visible */
           object-position: center; /* Center the image within its bounds */
           border-radius: 12px; /* Soft rounded corners */
           /* Subtle shadow for a lifted, blended effect */
